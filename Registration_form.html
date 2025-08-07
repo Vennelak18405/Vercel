@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Website Feedback Form</title>
+</head>
+<body>
+
+<h1 style="text-align:center;">Website Feedback Form</h1>
+
+<form action="#" method="post">
+
+<label for="name">Name:</label><br>
+<input type="text" id="name" name="name" required><br><br>
+
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email" required><br><br>
+
+<p>How did you hear about the website?</p>
+<input type="radio" id="google" name="source" value="Google">
+<label for="google">Google</label><br>
+<input type="radio" id="social" name="source" value="Social Media">
+<label for="social">Social Media</label><br>
+<input type="radio" id="friend" name="source" value="Friend">
+<label for="friend">Friend</label><br>
+<input type="radio" id="others" name="source" value="Others">
+<label for="others">Others</label><br><br>
+
+<p>What did you like the most?</p>
+<input type="checkbox" id="ui" name="like" value="UI Design">
+<label for="ui">UI Design</label><br>
+<input type="checkbox" id="speed" name="like" value="Speed">
+<label for="speed">Speed</label><br>
+<input type="checkbox" id="content" name="like" value="Content">
+<label for="content">Content</label><br>
+<input type="checkbox" id="responsive" name="like" value="Responsiveness">
+<label for="responsive">Responsiveness</label><br><br>
+
+<label for="rating">Rate us:</label><br>
+<select id="rating" name="rating" required>
+<option value="">--Select--</option>
+<option value="1">1 Star</option>
+<option value="2">2 Stars</option>
+<option value="3">3 Stars</option>
+<option value="4">4 Stars</option>
+<option value="5">5 Stars</option>
+</select><br><br>
+
+<label for="message">Leave a message or comment:</label><br>
+<textarea id="message" name="message" rows="5" cols="40" placeholder="Your feedback here..."></textarea><br><br>
+
+<button type="submit">Submit Feedback</button><br><br>
+
+<a href="index.html">Back to Homepage</a>
+
+</form>
+
+</body>
+</html>
